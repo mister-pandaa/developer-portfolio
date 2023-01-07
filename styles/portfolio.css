@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    height: 64px;
+    border-radius: 5px;
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    /* padding: 38px,0px,23px,24px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 225px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+}
+
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+
+}
+
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.banner-sub-title {
+
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about-me {
+    align-items: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.section-title {
+
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #181818;
+
+
+
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-panel {}
+
+.info-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #757575;
+}
+
+.info-description {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #474747
+}
+
+.skill-panel {
+    margin-top: 130px;
+}
+
+.skill-panel-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #181818;
+    text-align: center;
+}
+
+.skill-panel--description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    /* justify-content: center; */
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.skill-description {
+    text-align: left;
+    color: #757575;
+}
+
+.skill-body {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.resume {
+    margin-top: 130px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-items {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-items .title {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    color: #474747;
+
+}
+
+.resume-items .sub-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #757575;
+
+}
+
+.resume-items .description {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #757575;
+}
+.resume-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+margin-top: 80px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.footer{
+    margin-top: 110px;
+    display: flex;
+    background: #FFF8F3;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.footer-description{
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+.message input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    border: 0;
+    padding:18px 0 18px 30px ;
+
+}
+.message input{
+    height: 64px;
+
+}
